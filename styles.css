@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+body{
+  min-height: 100dvh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (orientation : portrait) {
+  
+  body{
+    background-image: url('https://photovideocreative.com/wordpress/wp-content/uploads/2017/11/Portrait-en-orientation-portrait.jpg');
+  }
+}
+
+@media screen and not (orientation : portrait) {
+  
+  body{
+    background-image: url('https://photovideocreative.com/wordpress/wp-content/uploads/2017/11/Paysage-en-orientation-paysage.jpg');
+  }
+}
